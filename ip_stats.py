@@ -63,8 +63,17 @@ def parse_ping_str(ip_response, os_result):
 		else:
 			print('No values found!')
 	else:
-		output_string = 'Minimum = (\d+)+ms, Maximum = (\d+)+ms, Average = (\d+)+ms'
-		match = re.search(output_string, ip_response)
+		# output_string = 'Minimum = (\d+)+ms, Maximum = (\d+)+ms, Average = (\d+)+ms'
+		# match = re.search(output_string, ip_response)
+		
+		### Modified for Windows 10 中文版
+		n = ip_response.find("大約的來回時間 (毫秒):") + 19
+		str = ip_response[n:]
+		str = str.replace("最小值","Minimum")
+		str = str.replace("最大值","Maximum")
+		str = str.replace("平均","Average")
+		output_string = r'((.+) = (\d+)+ms)+'
+		match = re.search(output_string, str)
 
 		if not(match is None):
 			avg = float(match.group(3)) #avg is the 3rd index of the match group
