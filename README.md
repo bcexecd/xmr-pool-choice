@@ -1,6 +1,6 @@
 ### xmr-pool-choice
 
-基於Latency和網絡去中心化程度，協助使用者選擇適當的門羅(Monero)礦池。包含一個事先準備好的礦池 JSON 資料庫。
+基於Latency和網絡去中心化程度，協助使用者選擇適當的門羅(Monero)礦池。包含一個事先準備好的礦池 JSON 資料庫。這個修改版僅適用於 Windows 10 Traditional Chinese Version。
 
 Toolkit for helping to choose the right Monero minging pool based off of latency and decentralization of the network. Also, a json database containing the most recent accepted pool names, mining addresses, and live stats APIs is included.
 
