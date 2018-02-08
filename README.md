@@ -1,4 +1,7 @@
-### xmr-pool-choice 
+### xmr-pool-choice
+
+基於Latency和網絡去中心化程度，協助使用者選擇適當的門羅(Monero)礦池。包含一個事先準備好的礦池 JSON 資料庫。
+
 Toolkit for helping to choose the right Monero minging pool based off of latency and decentralization of the network. Also, a json database containing the most recent accepted pool names, mining addresses, and live stats APIs is included.
 
 ### Requirements
@@ -67,7 +70,7 @@ This code relies on the data gathered by the folk(s) at [moneropools.com](http:/
 
 XMR Donations if you feel this was useful:
 ```
-49P4SVT2DewdN44NKtySdf4d3LsYN4esS3VpC3eFUFrUWW3UDp76aaZbzijwmzso14C9ZhhAEtAiU3KTq27Tf4CfKbLA1Sx
+42LyDu2gTiV1p1oRD9BLxUdj7cbhpawZMLtK82gJAdM2BoTi1aWL37wRe7CeR8TtfnifHXoe1bY8CXRx2sMqQ8nWHUCmqNA
 ```
 
 Pool list updated:
